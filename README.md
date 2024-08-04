@@ -62,4 +62,4 @@ pip install numpy==1.24.3
 ```
 
 ## Acknowledgements
-- Special thanks to [Frank Liu](https://github.com/fzliu) (@fzliu) from [Zilliz](https://github.com/zilliztech) for example code
+- Special thanks to [Frank Liu](https://github.com/fzliu) from [Zilliz](https://github.com/zilliztech) for example code
