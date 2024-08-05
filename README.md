@@ -46,23 +46,7 @@ pyenv activate urcuchillay-media-env
 ```
 - Install dependencies
 ```shell
-pip install -U accelerate
-pip install -U git+https://github.com/fzliu/ImageBind@main
-pip install -U librosa
-pip install -U Pillow
-pip install -U pymilvus
-pip install -U pytorchvideo
-pip install -U radient
-pip install -U torch
-pip install -U transformers
-pip install -U yt_dlp
-```
-
-### Note: Numpy 1.x is required:
-- If necessary:
-```shell
-pip uninstall numpy
-pip install numpy==1.26.4
+pip install -r requirements.txt
 ```
 
 ## Acknowledgements
