@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2024 Steve Castellotti
-# This file is part of Urcuchillay and is released under the MIT License.
+# This file is part of Urcuchillay and is released under the Apache 2.0 License.
 # See LICENSE file in the project root for full license information.
 
 import argparse
@@ -13,12 +13,11 @@ import warnings
 try:
     import config
     import utils
+    from PIL import Image
     from radient import make_operator
     from radient import Workflow
-
-    from transformers import ChameleonProcessor, ChameleonForConditionalGeneration
     import torch
-    from PIL import Image
+    from transformers import ChameleonProcessor, ChameleonForConditionalGeneration
 
     # The following modules need to be explicitly imported
     import numpy as np
