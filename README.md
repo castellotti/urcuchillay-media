@@ -24,7 +24,7 @@ In the Incan religion, Urcuchillay was depicted as a multicolored male llama, wo
   - [radient](https://github.com/fzliu/radient)
 
 ## Example
-- You're probably already familiar with [a certain well-known YouTube video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) which has over 1.5 Billion views
+- You're probably already familiar with a [certain well-known YouTube video](https://www.youtube.com/watch?v=dQw4w9WgXcQ) which has over 1.5 billion views
 - But do you know if the video happens to contain a backflip?
 - Use Urcuchillay Media to find out:
 ```shell
@@ -33,7 +33,7 @@ python3 multimodal.py \
   --prompt "Is there a backflip?" \
   --interval 2.0
 ```
-- In this example we use an "interval" of 2.0 seconds, meaning one frame from the video is extracted from every other second of video
+- In this example we use an `interval` of 2.0 seconds, meaning one frame from the video is extracted from every other second of video
 - The result of the query will be displayed directly to your system:
   <img src="docs/images/backflip.png" alt="Backflip" width="480"/>
 
