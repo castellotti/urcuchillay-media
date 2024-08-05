@@ -27,7 +27,7 @@ try:
 except ModuleNotFoundError as e:
     print('\nError importing Python module(s)')
     print('If installed using setup.sh it may be necessary to run:\n')
-    print('pyenv activate urcuchillay-env\n')
+    print('pyenv activate urcuchillay-media-env\n')
     sys.exit(1)
 
 INTERVAL = 2.0
